@@ -5,7 +5,7 @@ filetype indent on
 
 syntax on
 
-set relativenumber
+set number relativenumber
 
 colorscheme myvimcolor 
 
