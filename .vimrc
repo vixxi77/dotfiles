@@ -1,3 +1,9 @@
+call plug#begin()
+
+call plug#end()
+
+
+
 set nocompatible
 
 filetype plugin on
