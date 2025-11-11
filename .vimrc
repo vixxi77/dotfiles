@@ -17,6 +17,8 @@ syntax on
 
 set number relativenumber
 
-colorscheme myvimcolor 
+"colorscheme myvimcolor 
+"colorscheme blue
+colorscheme lunaperche
 
 set termguicolors 
