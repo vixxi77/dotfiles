@@ -1,1 +1,1 @@
-Dotfiles to use between machines
+Dotfiles to use between machines.
