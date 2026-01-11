@@ -18,3 +18,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[38;5;226m\][\[\e[38;5;220m\]\u\[\e[38;5;214m\]@\[\e[38;5;208m\]\H\[\e[38;5;202m\]\w\[\e[38;5;166m\]]\[\e[38;5;196m\]${PS1_CMD1}\[\e[38;5;160m\]\\$\[\e[0m\]'
