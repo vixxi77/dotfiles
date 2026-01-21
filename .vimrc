@@ -22,3 +22,18 @@ set number relativenumber
 colorscheme lunaperche
 
 set termguicolors 
+
+"go to definition
+nmap gd <Plug>(coc-definition)
+
+"go to references
+nmap gr <Plug>(coc-references)
+
+"go to type definition
+nmap gy <Plug>(coc-type-definition)
+
+"go to implementation
+nmap gi <Plug>(coc-implementation)
+
+"hover documentation
+nnoremap K :call CocAction('doHover')<CR>
