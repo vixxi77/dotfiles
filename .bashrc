@@ -10,6 +10,7 @@ set -o noclobber
 
 alias ls='ls -l --color=auto'
 alias grep='grep --color=auto'
+alias proj="cd ~/Projects/"
 PS1='[\u@\h \W]\$ '
 
 export TERM=xterm-256color
