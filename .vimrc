@@ -19,7 +19,11 @@ set number relativenumber
 
 "colorscheme myvimcolor 
 "colorscheme blue
-colorscheme lunaperche
+"colorscheme lunaperche
+colorscheme habamax
+
+set guifont=
+
 
 set termguicolors 
 

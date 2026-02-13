@@ -1,6 +1,9 @@
 [font]
 	normal = { family = "Fixedsys Excelsior" }
-	#normal = { family = "Iosevka Term Heavy" }
+	#normal = { family = "Iosevka Slab" }
+	#normal = { family = "Hack", style="Bold" }
+	#normal = { family = "Terminus" }
+	#normal = { family = "ProggyClean", style ="Regular" }
 	size = 12
 
 [colors]
