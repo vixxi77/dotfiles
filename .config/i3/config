@@ -232,3 +232,5 @@ client.urgent           $u-bgcolor      $u-bgcolor      $text           $u-bgcol
 
 #launch vim with another allacritty instance
 bindsym $mod+Shift+v exec --no-startup-id alacritty -e vim .
+#launch gif clipper peek
+bindsym $mod+p exec --no-startup-id peek
