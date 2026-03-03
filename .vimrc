@@ -17,15 +17,16 @@ syntax on
 
 set number relativenumber
 
+set termguicolors 
+
 "colorscheme myvimcolor 
 "colorscheme blue
 "colorscheme lunaperche
 colorscheme habamax
+"colorscheme quiet
 
-set guifont=
-
-
-set termguicolors 
+highlight Normal guibg=NONE ctermbg=NONE
+highlight NonText guibg=NONE ctermbg=NONE
 
 "go to definition
 nmap gd <Plug>(coc-definition)
