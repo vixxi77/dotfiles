@@ -1,12 +1,10 @@
 call plug#begin()
 
 Plug 'jiangmiao/auto-pairs'
-
+Plug 'sphamba/smear-cursor.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
-
-
 
 set nocompatible
 

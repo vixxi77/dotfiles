@@ -13,6 +13,9 @@ alias grep='grep --color=auto'
 #->
 alias proj='cd ~/Projects/'
 alias ..='cd ..'
+alias vi='/usr/bin/vim'
+alias vim='nvim'
+
 PS1='[\u@\h \W]\$ '
 
 export TERM=xterm-256color
