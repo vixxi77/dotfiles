@@ -11,7 +11,7 @@ set -o noclobber
 alias ls='ls -l --color=auto'
 alias grep='grep --color=auto'
 #->
-alias proj='cd ~/Projects/'
+alias pr='cd ~/Projects/'
 alias ..='cd ..'
 alias vi='/usr/bin/vim'
 alias vim='nvim'
