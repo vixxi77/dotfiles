@@ -237,4 +237,4 @@ bindsym $mod+p exec --no-startup-id peek
 bindsym $mod+Ctrl+l exec --no-startup-id setxkbmap lt
 bindsym $mod+Ctrl+u exec --no-startup-id setxkbmap us
 
-
+bindsym --release Print exec --no-startup-id flameshot gui

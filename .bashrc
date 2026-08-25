@@ -28,3 +28,5 @@ export NVM_DIR="$HOME/.nvm"
 
 PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[38;5;237m\][\[\e[38;5;242m\]\u\[\e[38;5;244m\]@\[\e[38;5;246m\]\H\[\e[0m\] \[\e[38;5;247m\]\w\[\e[38;5;248m\]]\[\e[38;5;251m\]<\[\e[38;5;253m\]${PS1_CMD1}\[\e[38;5;254m\]>\[\e[38;5;255m\]\\$\[\e[0m\] '
 . "$HOME/.cargo/env"
+
+export STM32_PRG_PATH=/home/yaye/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin
