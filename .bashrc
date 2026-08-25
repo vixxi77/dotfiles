@@ -12,6 +12,7 @@ alias ls='ls -l --color=auto'
 alias grep='grep --color=auto'
 #->
 alias pr='cd ~/Projects/'
+alias redock='~/bin/redock'
 alias ..='cd ..'
 alias vi='/usr/bin/vim'
 alias vim='nvim'
