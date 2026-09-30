@@ -2,6 +2,10 @@
 # ~/.bashrc
 #
 
+if [[ -f "$HOME/local.env" ]]; then
+    source "$HOME/local.env"
+fi
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -13,6 +17,8 @@ alias grep='grep --color=auto'
 #->
 alias pr='cd ~/Projects/'
 alias redock='~/bin/redock'
+alias hp='bluetoothctl connect "$HEADPHONES_MAC"'
+alias hpd='bluetoothctl disconnect "$HEADPHONES_MAC"'
 alias ..='cd ..'
 alias vi='/usr/bin/vim'
 alias vim='nvim'
